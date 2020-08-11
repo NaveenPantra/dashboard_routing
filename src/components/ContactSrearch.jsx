@@ -9,6 +9,7 @@ export default function ContactSrearch() {
 
   useEffect(() => {
     setSearchString(searchParams.get('q') || '')
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [useLocationHook]);
 
   function handleFormSubmit(event) {

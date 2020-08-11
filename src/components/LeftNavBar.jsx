@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { Route, Switch, NavLink, useLocation } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 
 export default function LeftNavBar() {
     const routerLocationHook = useLocation();

@@ -1,5 +1,4 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom';
 import ContactList from './ContactList';
 
 export default function recents() {

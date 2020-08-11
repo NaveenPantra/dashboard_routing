@@ -2,7 +2,6 @@ import React from "react";
 import {
   NavLink,
   useLocation,
-  useHistory,
   useParams,
   useRouteMatch,
   Switch,
@@ -24,7 +23,6 @@ function getTabPath(match, tab = "details") {
 
 export default function FullContactCard() {
   const useLocationHook = useLocation();
-  const useHistoryHook = useHistory();
   const useParamHook = useParams();
   const useRouteMatchHook = useRouteMatch();
   const searchParams = new URLSearchParams(useLocationHook.search);

@@ -24,6 +24,7 @@ export default function ContactFilter() {
 
   useEffect(() => {
     setFilters(getFilters(searchParams));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [useLocationHook]);
 
   function handleOnReset(event) {
