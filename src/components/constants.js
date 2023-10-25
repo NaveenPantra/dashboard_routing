@@ -3,19 +3,19 @@ const contactsList = [
         name: 'Naveen Pantra',
     },
     {
-        name: 'Siwalik Mukarjee Bro',
+        name: 'Siwalik Mukarjee',
     },
     {
-        name: 'Tarun Sing Bro',
+        name: 'Tarun Sing',
     },
     {
-        name: 'Saching Kul Bro',
+        name: 'Sachin',
     },
     {
-        name: 'Joy Deep Bro',
+        name: 'JoyDeep',
     },
     {
-        name: 'Vinodhan Bro',
+        name: 'Vinodhan',
     },
 ];
 
