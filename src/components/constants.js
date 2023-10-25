@@ -1,5 +1,8 @@
 const contactsList = [
     {
+        name: 'This is a simple POC',
+    },
+    {
         name: 'Naveen Pantra',
     },
     {
